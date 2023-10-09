@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumni Connect Unique</title>
+    <style>
+      /* Global Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      /* Event Section Styles */
+      #events {
+        padding: 20px;
+      }
+
+      .event {
+        margin-bottom: 20px;
+      }
+
+      .event h3 {
+        background-color: black;
+        color: black;
+        padding: 10px;
+      }
+
+      /* About Section Styles */
+      #about {
+        background-color: black;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .member {
+        display: inline-block;
+        margin: 20px;
+      }
+
+      /* Contact Section Styles */
+      #contact {
+        padding: 20px;
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      form input[type="text"],
+      form input[type="email"],
+      form select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      form button {
+        background-color: #444;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+
+      /* Primary Objective Styles */
+      .primary-container {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .primary-objective {
+        background-color: white;
+        color: black;
+        font-size: x-large;
+        padding: 20px;
+        text-align: justify;
+        border: 2px solid black;
+      }
+
+      /* About */
+      .member {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        text-size-adjust: larger;
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        /* Adjust styles for tablets */
+        header {
+          padding: 10px;
+        }
+        nav ul li {
+          margin-right: 10px;
+        }
+        .primary-objective {
+          font-size: large;
+          padding: 10px;
+        }
+        .member {
+          padding: 10px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        /* Adjust styles for mobile phones */
+        header {
+          padding: 5px;
+        }
+        nav ul li {
+          margin-right: 5px;
+        }
+        .primary-objective {
+          font-size: medium;
+          padding: 5px;
+        }
+        .member {
+          padding: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>WELCOME TO ALUMNI CONNECT UNIQUE</h1>
+
+      <!-- Add the Primary Container below the h1 -->
+      <div class="primary-container">
+        <div class="primary-objective">
+          <p>
+            Our website's primary objective is to foster meaningful connections
+            among university alumni. We achieve this by providing regular event
+            updates and networking opportunities to strengthen the bonds between
+            alumni. We invite you to join us in building a thriving alumni
+            community where connections and engagement flourish.
+          </p>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#events">Upcoming Events</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="events">
+      <!-- Add the event photo here -->
+      <div class="event-photo">
+        <img
+          src="Alumni.png"
+          alt="Alumni Events"
+          style="width: 100%; max-height: 800px"
+        />
+      </div>
+      <h2>Upcoming Alumni Events</h2>
+      <div class="event">
+        <h3>Professional Development</h3>
+        <ul>
+          <li>
+            <strong>Event Name:</strong> Career Growth Seminar
+            <br />
+            <strong>Date:</strong> October 20, 2023
+            <br />
+            <strong>Venue:</strong> Leadership Centre, ALU Rwanda Campus
+            <br />
+            <strong>Time:</strong> 9am - 5pm
+            <br />
+            <strong>Description:</strong> A seminar on career development and
+            growth strategies. Join us for insightful sessions with industry
+            experts who will share their experiences and offer valuable advice
+            on advancing your career. Network with fellow alumni and discover
+            opportunities for professional growth.
+          </li>
+          <!-- Add more events here -->
+        </ul>
+      </div>
+
+      <div class="event">
+        <h3>Campus Events</h3>
+        <ul>
+          <li>
+            <strong>Event Name:</strong> Homecoming Reunion
+            <br />
+            <strong>Date:</strong> November 10, 2023
+            <br />
+            <strong>Venue:</strong> Ground floor, Social commons. ALU Rwanda
+            Campus
+            <br />
+            <strong>Time:</strong> 9am - 3:30pm
+            <br />
+            <strong>Description:</strong> A fun reunion party to reconnect with
+            fellow alumni. Come and relive the memories of your campus days.
+            Enjoy music, games, and delicious food in the company of old
+            friends. It's a perfect opportunity to strengthen your ties with
+            your alma mater.
+          </li>
+          <!-- Add more events here -->
+        </ul>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Our Team</h2>
+      <div class="member">
+        <img src="me.jpg" alt="Chidera Anele" style="max-width: 300px" />
+        <h3>Chidera Anele</h3>
+        <h3>Web Development Expert</h3>
+        <p>
+          I am first year Software Engineerng student at the African Leaderahip
+          University Kigali. I am opportuned to be the web development expert on
+          the Alumni project at ALU. You can contact me on LinkedIn with this
+          link:
+          <a href="https://www.linkedin.com/in/chidera-anele/">LinkedIn</a>
+        </p>
+      </div>
+      <!-- Add more team members here -->
+    </section>
+
+    <section id="contact">
+      <h2>Reserve your spot</h2>
+      <p>Reserve your spot for upcoming events:</p>
+      <form action="submit_form.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <!-- Add a line break to separate the elements -->
+        <br />
+
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+          <option value="Career Growth Seminar">Career Growth Seminar</option>
+          <option value="Homecoming Reunion">Homecoming Reunion</option>
+          <!-- Add more event options here -->
+        </select>
+
+        <!-- Add another line break for spacing -->
+        <br />
+
+        <button <button type="submit">Reserve My Spot</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 AlumniConnect Unique</p>
+    </footer>
+  </body>
+</html>
