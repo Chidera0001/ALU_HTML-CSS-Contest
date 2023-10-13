@@ -4,175 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alumni Meet</title>
-    <style>
-      /* Global Styles */
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-
-      header {
-        background-color: rgb(18, 12, 71);
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-
-      nav ul {
-        list-style-type: none;
-        padding: 0;
-      }
-
-      nav ul li {
-        display: inline;
-        margin-right: 20px;
-      }
-
-      nav a {
-        color: #fff;
-        text-decoration: none;
-      }
-
-      /* Event Section Styles */
-      #events {
-        padding: 20px;
-      }
-
-      .event {
-        margin-bottom: 20px;
-      }
-
-      .event h3 {
-        background-color: rgb(18, 12, 71);
-        color: white;
-        padding: 10px;
-      }
-
-      /* About Section Styles */
-      #about {
-        background-color: rgb(18, 12, 71);
-        padding: 20px;
-        text-align: center;
-        color: white;
-      }
-
-      .member {
-        display: inline-block;
-        margin: 5px;
-      }
-
-      /* Contact Section Styles */
-      #contact {
-        padding: 20px;
-      }
-
-      form label {
-        display: block;
-        margin-bottom: 10px;
-      }
-
-      form input[type="text"],
-      form input[type="email"],
-      form select {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 20px;
-      }
-
-      form button {
-        background-color: rgb(18, 12, 71);
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-      }
-
-      /* Primary Objective Styles */
-      .primary-container {
-        background-color: rgb(146, 34, 34);
-        padding: 20px;
-        text-align: center;
-      }
-
-      .primary-objective {
-        background-color: white;
-        color: black;
-        font-size: x-large;
-        padding: 20px;
-        text-align: justify;
-        border: 2px solid black;
-      }
-
-      /* About */
-      .team{
-        background-color: white;
-        padding: 5px;
-        text-align: center;
-        text-size-adjust: larger;
-        color: black;
-      }
-
-      .team-member-image {
-        max-width: 100%;
-        height: 300px;
-        padding: 0px;
-      }
-
-
-      /* Responsive Styles */
-      @media (max-width: 768px) {
-        /* Adjust styles for tablets */
-        header {
-          padding: 10px;
-        }
-        nav ul li {
-          margin-right: 10px;
-        }
-        .primary-objective {
-          font-size: large;
-          padding: 10px;
-        }
-        .member {
-          padding: 5px;
-        }
-      }
-
-      @media (max-width: 480px) {
-        /* Adjust styles for mobile phones */
-        header {
-          padding: 5px;
-        }
-        nav ul li {
-          margin-right: 5px;
-        }
-        .primary-objective {
-          font-size: medium;
-          padding: 5px;
-        }
-        .member {
-          padding: 5px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+  <div class="landing">
     <header>
-      <h1>WELCOME TO ALUMNI MEET</h1>
-
-      <!-- Add the Primary Container below the h1 -->
-      <div class="primary-container">
-        <div class="primary-objective">
-          <p>
-            Our website's primary objective is to foster meaningful connections
-            among university alumni. We achieve this by providing regular event
-            updates and networking opportunities to strengthen the bonds between
-            alumni. We invite you to join us in building a thriving alumni
-            community where connections and engagement flourish.
-          </p>
-        </div>
-      </div>
-
+      <a href="#">logo</a> <!--insert logo image-->
       <nav>
         <ul>
           <li><a href="#events">Upcoming Events</a></li>
@@ -182,15 +19,26 @@
       </nav>
     </header>
 
+    <div class="primary-container">
+        <div class="primary-objective">
+          <h1>WELCOME TO ALUMNI MEET</h1>
+    <!-- Add the Primary Container below the h1 -->
+          <p>
+            Our website's primary objective is to foster meaningful connections
+            among university alumni. We achieve this by providing regular event
+            updates and networking opportunities to strengthen the bonds between
+            alumni. We invite you to join us in building a thriving alumni
+            community where connections and engagement flourish.
+          </p>
+        </div>
+      </div>
+  </div>
     <section id="events">
       <!-- Add the event photo here -->
       <div class="event-photo">
-        <img
-          src="Alumni.png"
-          alt="Alumni Events"
-          style="width: 100%; max-height: 800px"
-        />
+      
       </div>
+
       <h2>Upcoming Alumni Events</h2>
       <div class="event">
         <h3>Professional Development</h3>

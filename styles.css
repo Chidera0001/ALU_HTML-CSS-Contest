@@ -1,0 +1,178 @@
+ /* Global Styles */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 50px;
+    font-size: large;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
+ 
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul li {
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    /*border-radius: 5px;*/
+  }
+
+  nav :hover{
+    color: rgb(249, 68, 68);
+  }
+
+  /* Primary Objective Styles */
+.landing {
+    background-image: url(Alumni.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+  .primary-container {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 40rem;
+    max-height: 800px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .primary-objective {
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+    padding: 0px 5%;
+  }
+
+  .primary-objective>h1{
+    font-size: 80px;
+    text-shadow: 2px 2px 15px #000;
+  }
+  .primary-objective>p{
+    text-shadow: 2px 2px 5px #000000;
+  }
+
+  /* Event Section Styles */
+  #events {
+    padding: 20px;
+  }
+
+  .event {
+    margin-bottom: 20px;
+  }
+
+  .event h3 {
+    background-color: rgb(20, 10, 105);
+    color: white;
+    padding: 10px;
+  }
+
+  /* About Section Styles */
+  #about {
+    background-color: rgb(20, 10, 105);
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .member {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  /* Contact Section Styles */
+  #contact {
+    padding: 20px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  form button {
+    background-color: rgb(20, 10, 105);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* About */
+  .team{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    text-size-adjust: larger;
+    color: black;
+  }
+
+  .team-member-image {
+    max-width: 100%;
+    height: 300px;
+    padding: 0px;
+  }
+
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    /* Adjust styles for tablets */
+    header {
+      padding: 10px;
+    }
+    nav ul li {
+      margin-right: 10px;
+    }
+    .primary-objective {
+      font-size: large;
+      padding: 10px;
+    }
+    .member {
+      padding: 5px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    /* Adjust styles for mobile phones */
+    header {
+      padding: 5px;
+    }
+    nav ul li {
+      margin-right: 5px;
+    }
+    .primary-objective {
+      font-size: medium;
+      padding: 5px;
+    }
+    .member {
+      padding: 5px;
+    }
+  }
