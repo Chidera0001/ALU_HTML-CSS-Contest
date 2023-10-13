@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alumni Connect Unique</title>
+    <title>Alumni Meet</title>
     <style>
       /* Global Styles */
       body {
@@ -13,7 +13,7 @@
       }
 
       header {
-        background-color: black;
+        background-color: rgb(18, 12, 71);
         color: white;
         padding: 20px;
         text-align: center;
@@ -44,16 +44,17 @@
       }
 
       .event h3 {
-        background-color: black;
-        color: black;
+        background-color: rgb(18, 12, 71);
+        color: white;
         padding: 10px;
       }
 
       /* About Section Styles */
       #about {
-        background-color: black;
+        background-color: rgb(18, 12, 71);
         padding: 20px;
         text-align: center;
+        color: white;
       }
 
       .member {
@@ -80,7 +81,7 @@
       }
 
       form button {
-        background-color: #444;
+        background-color: rgb(18, 12, 71);
         color: #fff;
         padding: 10px 20px;
         border: none;
@@ -89,7 +90,7 @@
 
       /* Primary Objective Styles */
       .primary-container {
-        background-color: white;
+        background-color: rgb(146, 34, 34);
         padding: 20px;
         text-align: center;
       }
@@ -104,12 +105,19 @@
       }
 
       /* About */
-      .member {
+      .team{
         background-color: white;
-        padding: 20px;
+        padding: 5px;
         text-align: center;
         text-size-adjust: larger;
+        color: black;
       }
+
+      .team-member-image {
+        max-width: 100%;
+        height: 300px;
+      }
+
 
       /* Responsive Styles */
       @media (max-width: 768px) {
@@ -149,7 +157,7 @@
   </head>
   <body>
     <header>
-      <h1>WELCOME TO ALUMNI CONNECT UNIQUE</h1>
+      <h1>WELCOME TO ALUMNI MEET</h1>
 
       <!-- Add the Primary Container below the h1 -->
       <div class="primary-container">
@@ -231,17 +239,26 @@
 
     <section id="about">
       <h2>About Our Team</h2>
-      <div class="member">
-        <img src="me.jpg" alt="Chidera Anele" style="max-width: 300px" />
+      <div class="team member">
+        <img class="team-member-image" img src="me.jpg" alt="Chidera Anele" />
         <h3>Chidera Anele</h3>
-        <h3>Web Development Expert</h3>
-        <p>
-          I am first year Software Engineerng student at the African Leaderahip
-          University Kigali. I am opportuned to be the web development expert on
-          the Alumni project at ALU. You can contact me on LinkedIn with this
-          link:
-          <a href="https://www.linkedin.com/in/chidera-anele/">LinkedIn</a>
-        </p>
+          <p>Back-End Engineer</p>
+      </div>
+      <div class="team member">
+        <img class="team-member-image" img src="Kachi.jpg" alt="Igboerika Onochie" />
+        <h3>Igboerika Onochie</h3>
+        <p>Front-End Developer</p>
+      </div>
+      </div>
+      <div class="team member">
+        <img class="team-member-image" img src="Theodora.jpg" alt="Theodora Omunizua" />
+        <h3>Theodora Omunizua</h3>
+          <p>Front-End Developer</p>
+      </div>
+      <div class="team member">
+        <img class="team-member-image" img src="Denys.PNG" alt="Denys Ntwaritaganzwa" />
+        <h3>Denys Ntwaritaganzwa</h3>
+          <p>Content Manager</p>
       </div>
       <!-- Add more team members here -->
     </section>
