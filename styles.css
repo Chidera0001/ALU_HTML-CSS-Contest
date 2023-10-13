@@ -1,6 +1,6 @@
  /* Global Styles */
  body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, "Source Sans Pro";
     margin: 0;
     padding: 0;
   }
@@ -9,11 +9,18 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 50px;
+    margin-left: 5rem;
+    margin-right: 5rem;
     font-size: large;
     width: 100%;
     margin: 0;
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .logo {
+    width: 150px;
+    height: 70px;
+    padding-left: 100px;
   }
  
   nav ul {
@@ -21,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 100px;
   }
 
   nav ul li {
@@ -40,19 +48,18 @@
 
   /* Primary Objective Styles */
 .landing {
-    background-image: url(Alumni.png) ;
+    background-image: url(images/Alumni.png) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
   .primary-container {
-    padding: 20px;
     text-align: center;
     width: 100%;
-    height: 40rem;
+    height: 36rem;
     max-height: 800px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -70,6 +77,31 @@
   }
   .primary-objective>p{
     text-shadow: 2px 2px 5px #000000;
+  }
+
+  .contact-btn {
+    border-radius: 30px;
+    background: rgb(20, 10, 105);
+    width: 10rem;
+    height: 4rem;
+    bottom: 168px;
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-top: 2rem;
+  }
+
+  .contact-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .border {
+    height: 15px;
+    background-color: rgb(249, 68, 68);
   }
 
   /* Event Section Styles */
