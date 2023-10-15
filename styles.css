@@ -1,226 +1,345 @@
  /* Global Styles */
  body {
-    font-family: Arial, "Source Sans Pro";
-    margin: 0;
-    padding: 0;
-    font-size: xx-large;
-  }
-
-  header {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    font-size: larger;
-    width: 100%;
-    margin: 0;
-    background-color: rgba(0,0,0,0.5);
-  }
-
-  .logo {
-    width: 150px;
-    height: 70px;
-    padding-left: 100px;
-    size: 10px;
-  }
- 
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 100px;
-  }
-
-  nav ul li {
-    padding-left: 2rem;
-    padding-right: 0;
-  }
-
-  nav a {
-    color: white;
-    text-decoration: none;
-    /*border-radius: 5px;*/
-  }
-
-  nav :hover{
-    color: rgb(249, 68, 68);
-  }
-
-  /* Primary Objective Styles */
-.landing {
-    background-image: url(images/Alumni.png) ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  font-family: Arial, "Source Sans Pro";
+  margin: 0;
+  padding: 0;
 }
 
-  .primary-container {
-    text-align: center;
-    width: 100%;
-    height: 36rem;
-    max-height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+body {
+  overflow-x: hidden;
+}
 
-  .primary-objective {
-    color: #fff;
-    font-size: xx-large;
-    text-align: center;
-    padding: 0px 5%;
-    size: 20px;
-  }
+html {
+  overflow-x: hidden;
+}  
 
-  .primary-objective>h1{
-    font-size: 80px;
-    text-shadow: 2px 2px 15px #000;
-  }
-  .primary-objective>p{
-    text-shadow: 2px 2px 5px #000000;
-  }
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px 5%;
+}
 
-  .contact-btn {
-    border-radius: 30px;
-    background: rgb(20, 10, 105);
-    width: 10rem;
-    height: 4rem;
-    bottom: 168px;
-    color: #fff;
-    text-align: center;
-    font-size: large;
-    font-weight: 600;
-    line-height: normal;
-    border: none;
-    margin-top: 2rem;
-  }
+.logo {
+  width: 150px;
+  height: 70px;
+}
 
-  .contact-btn a {
-    text-decoration: none;
-    color: #fff;
-  }
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .border {
-    height: 15px;
-    background-color: rgb(249, 68, 68);
-  }
+nav ul li {
+  padding: 0 10px;
+}
 
-  /* Event Section Styles */
-  #events {
-    padding: 20px;
-  }
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  /*border-radius: 5px;*/
+}
 
-  .event {
-    margin-bottom: 60px;
-  }
+nav :hover{
+  color: rgb(249, 68, 68);
+}
 
-  .event h3 {
-    background-color: rgb(20, 10, 105);
-    color: white;
+@media (max-width: 768px) {
+header {
+  padding: 10px;
+}
+nav ul li {
+  margin-right: 10px;
+  padding: 5px;
+}
+nav a {
+  font-size: 14px;
+}
+}
+
+@media (max-width: 480px) {
+header {
+  padding: 5px;
+}
+nav ul li {
+  margin-right: 5px;
+  padding: 5px;
+}
+nav a {
+  font-size: 12px;
+}
+}
+
+/* Primary Objective Styles */
+.landing {
+  background-image: url(images/Alumni.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.primary-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-objective {
+  color: #fff;
+  text-align: center;
+  padding:5%;
+}
+
+.primary-objective>h1{
+  font-size: 36px;
+  text-shadow: 2px 2px 15px #000;
+}
+.primary-objective>p{
+  text-shadow: 2px 2px 5px #000000;
+}
+
+@media (max-width: 768px) {
+.primary-objective {
+  padding: 10px;
+}
+.primary-objective > h1 {
+  font-size: 24px;
+}
+.primary-objective > p {
+  font-size: 16px;
+}
+}
+
+@media (max-width: 480px) {
+.primary-objective {
+  padding: 5px;
+}
+.primary-objective > h1 {
+  font-size: 18px;
+}
+.primary-objective > p {
+  font-size: 14px;
+}
+}
+
+.contact-btn {
+  border-radius: 30px;
+  background: rgb(20, 10, 105);
+  width: 10rem;
+  height: 4rem;
+  bottom: 168px;
+  color: #fff;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin-top: 2rem;
+}
+
+.contact-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.border {
+  height: 10px;
+  background-color: rgb(249, 68, 68);
+}
+
+/* Event Section Styles */
+#events {
+  padding: 20px;
+}
+
+.event {
+  margin-bottom: 20px 0;
+  padding: 10px;
+}
+
+.event h3 {
+  background-color: rgb(20, 10, 105);
+  color: white;
+  padding: 10px;
+}
+
+/* About Section Styles */
+#about {
+  background-color: rgb(20, 10, 105);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.team {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+.team-member-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.member {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Contact Section Styles */
+#reserve, #contact {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#reserve h2, #contact h2 {
+  color: #333;
+  font-size: 24px;
+  text-decoration: underline rgb(249, 68, 68);
+}
+
+#reserve p, #contact p {
+  color: #666;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+form label[for="event"] {
+  font-size: 18px;
+  color: #333;
+  display: block;
+  margin: 10px 0;
+}
+
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form select {
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button {
+  background-color: rgb(20, 10, 105);
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+form button:hover {
+  background-color: #2074a0;
+}
+
+/* About */
+.team{
+  background-color: transparent;
+  padding: 5px;
+  text-align: center;
+  text-size-adjust: larger;
+  color: white;
+  
+}
+
+.team-member-image {
+  width: 250px;
+  height: 250px;
+  padding: 0px;
+  border-radius: 50%;
+}
+.team-member-image {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {}
+  /* Adjust styles for tablets */
+  header {
     padding: 10px;
   }
-
-  /* About Section Styles */
-  #about {
-    background-color: rgb(20, 10, 105);
-    padding: 20px;
-    text-align: center;
-    color: white;
+  nav ul li {
+    margin-right: 10px;
   }
-
+  .primary-objective {
+    font-size: large;
+    padding: 10px;
+  }
   .member {
-    display: inline-block;
-    margin: 5px;
-  }
-
-  /* Contact Section Styles */
-  #contact {
-    padding: 20px;
-  }
-
-  form label {
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  form input[type="text"],
-  form input[type="email"],
-  form select {
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-
-  form button {
-    background-color: rgb(20, 10, 105);
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    size: 40px;
-  }
-  textarea {
-    width: 100%;
-    height: 150px; /* Increase the height to make the text area taller */
-    padding: 15px; /* Increase the padding to make the text area larger */
-    font-size: larger; /* Increase the font size for better visibility */
-  }
-  
-
-  /* About */
-  .team{
-    background-color: white;
     padding: 5px;
-    text-align: center;
-    text-size-adjust: larger;
-    color: black;
   }
 
-  .team-member-image {
-    max-width: 100%;
-    height: 300px;
-    padding: 0px;
+@media (max-width: 480px) {}
+  /* Adjust styles for mobile phones */
+  header {
+    padding: 5px;
   }
-
-
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    /* Adjust styles for tablets */
-    header {
-      padding: 10px;
-    }
-    nav ul li {
-      margin-right: 10px;
-    }
-    .primary-objective {
-      font-size: x-large;
-      padding: 10px;
-    }
-    .member {
-      padding: 5px;
-    }
+  nav ul li {
+    margin-right: 5px;
   }
-
-  @media (max-width: 480px) {
-    /* Adjust styles for mobile phones */
-    header {
-      padding: 5px;
-    }
-    body{
-      margin: 0;
-      padding: 0;
-    }
-    nav ul li {
-      margin-right: 5px;
-    }
-    .primary-objective {
-      font-size: x-large;
-      padding: 5px;
-    }
-    .member {
-      padding: 5px;
-    }
+  .primary-objective {
+    font-size: medium;
+    padding: 5px; 
+  }
+  .member {
+    padding: 5px;
   }
