@@ -9,12 +9,8 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    font-size: large;
-    width: 100%;
-    margin: 0;
     background-color: rgba(0,0,0,0.5);
+    padding: 10px 5%;
   }
 
   .logo {
@@ -28,23 +24,48 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 100px;
   }
 
   nav ul li {
-    padding-left: 2rem;
-    padding-right: 0;
+    padding: 0 10px;
   }
 
   nav a {
     color: white;
     text-decoration: none;
+    font-size: 16px;
     /*border-radius: 5px;*/
   }
 
   nav :hover{
     color: rgb(249, 68, 68);
   }
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  nav ul li {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 5px;
+  }
+  nav ul li {
+    margin-right: 5px;
+    padding: 5px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+}
 
   /* Primary Objective Styles */
 .landing {
@@ -56,9 +77,6 @@
 
   .primary-container {
     text-align: center;
-    width: 100%;
-    height: 36rem;
-    max-height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,18 +84,41 @@
 
   .primary-objective {
     color: #fff;
-    font-size: x-large;
     text-align: center;
-    padding: 0px 5%;
+    padding:5%;
   }
 
   .primary-objective>h1{
-    font-size: 80px;
+    font-size: 36px;
     text-shadow: 2px 2px 15px #000;
   }
   .primary-objective>p{
     text-shadow: 2px 2px 5px #000000;
   }
+
+  @media (max-width: 768px) {
+  .primary-objective {
+    padding: 10px;
+  }
+  .primary-objective > h1 {
+    font-size: 24px;
+  }
+  .primary-objective > p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .primary-objective {
+    padding: 5px;
+  }
+  .primary-objective > h1 {
+    font-size: 18px;
+  }
+  .primary-objective > p {
+    font-size: 14px;
+  }
+}
 
   .contact-btn {
     border-radius: 30px;
@@ -111,6 +152,7 @@
 
   .event {
     margin-bottom: 20px;
+    padding: 10px;
   }
 
   .event h3 {
@@ -129,7 +171,7 @@
 
   .member {
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
   }
 
   /* Contact Section Styles */
