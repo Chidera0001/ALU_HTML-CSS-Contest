@@ -3,6 +3,7 @@
     font-family: Arial, "Source Sans Pro";
     margin: 0;
     padding: 0;
+    font-size: xx-large;
   }
 
   header {
@@ -11,7 +12,7 @@
     justify-content: space-between;
     margin-left: 5rem;
     margin-right: 5rem;
-    font-size: large;
+    font-size: larger;
     width: 100%;
     margin: 0;
     background-color: rgba(0,0,0,0.5);
@@ -21,6 +22,7 @@
     width: 150px;
     height: 70px;
     padding-left: 100px;
+    size: 10px;
   }
  
   nav ul {
@@ -66,9 +68,10 @@
 
   .primary-objective {
     color: #fff;
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
     padding: 0px 5%;
+    size: 20px;
   }
 
   .primary-objective>h1{
@@ -110,7 +113,7 @@
   }
 
   .event {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
 
   .event h3 {
@@ -146,8 +149,9 @@
   form input[type="email"],
   form select {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
+    font-size: 30px;
   }
 
   form button {
@@ -156,7 +160,15 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    size: 40px;
   }
+  textarea {
+    width: 100%;
+    height: 150px; /* Increase the height to make the text area taller */
+    padding: 15px; /* Increase the padding to make the text area larger */
+    font-size: larger; /* Increase the font size for better visibility */
+  }
+  
 
   /* About */
   .team{
@@ -184,7 +196,7 @@
       margin-right: 10px;
     }
     .primary-objective {
-      font-size: large;
+      font-size: x-large;
       padding: 10px;
     }
     .member {
@@ -197,11 +209,15 @@
     header {
       padding: 5px;
     }
+    body{
+      margin: 0;
+      padding: 0;
+    }
     nav ul li {
       margin-right: 5px;
     }
     .primary-objective {
-      font-size: medium;
+      font-size: x-large;
       padding: 5px;
     }
     .member {
