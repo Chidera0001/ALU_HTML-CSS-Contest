@@ -217,9 +217,9 @@
 
 
   /* Responsive Styles */
-  @media (max-width: 768px) {
+ /@media (max-width: 768px) {
     /* Adjust styles for tablets */
-    header {
+    /*header {
       padding: 10px;
     }
     nav ul li {
@@ -236,7 +236,7 @@
 
   @media (max-width: 480px) {
     /* Adjust styles for mobile phones */
-    header {
+   /* header {
       padding: 5px;
     }
     nav ul li {
@@ -244,9 +244,10 @@
     }
     .primary-objective {
       font-size: medium;
-      padding: 5px;
+      padding: 5px; 
     }
     .member {
       padding: 5px;
     }
   }
+*/
