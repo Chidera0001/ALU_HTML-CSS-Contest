@@ -5,6 +5,14 @@
     padding: 0;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }  
+
   header {
     color: white;
     display: flex;
@@ -151,7 +159,7 @@
   }
 
   .event {
-    margin-bottom: 20px;
+    margin-bottom: 20px 0;
     padding: 10px;
   }
 
@@ -217,7 +225,7 @@
 
 
   /* Responsive Styles */
- /@media (max-width: 768px) {
+ @media (max-width: 768px) {}
     /* Adjust styles for tablets */
     /*header {
       padding: 10px;
@@ -249,5 +257,4 @@
     .member {
       padding: 5px;
     }
-  }
-*/
+  } */
