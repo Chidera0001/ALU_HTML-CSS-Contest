@@ -31,7 +31,7 @@
             alumni. We invite you to join us in building a thriving alumni
             community where connections and engagement flourish.
           </p>
-          <button class="contact-btn"><a href="#contact">LET'S MEET</a></button>
+          <button class="contact-btn"><a href="#reserve">LET'S MEET</a></button>
         </div>
       </div>
   </div>
@@ -135,8 +135,9 @@
       </div>
     </section>
 
-    <section id="about">
-      <h2>About Our Team</h2>
+  <section id="about">
+      <h2>- About Our Team -</h2>
+    <div class="team-container">
       <div class="team member">
         <img class="team-member-image" img src="images/me.jpg" alt="Chidera Anele" />
         <h3>Chidera Anele</h3>
@@ -146,7 +147,6 @@
         <img class="team-member-image" img src="images/Kachi.jpg" alt="Igboerika Onochie" />
         <h3>Igboerika Onochie</h3>
         <p>Front-End Developer</p>
-      </div>
       </div>
       <div class="team member">
         <img class="team-member-image" img src="images/Theodora.jpg" alt="Theodora Omunizua" />
@@ -163,11 +163,12 @@
         <h3>Adediwura Adedigba</h3>
         <p>UI/UX Designer</p>
     </div>
+  </div>
 
       <!-- Add more team members here -->
-    </section>
+</section>
 
-    <section id="contact">
+    <section id="reserve">
       <h2>Reserve your spot</h2>
       <p>Reserve your spot for upcoming events:</p>
       <form action="submit_form.php" method="post">
@@ -182,7 +183,11 @@
         <label for="event">Select Event:</label>
         <select id="event" name="event" required>
           <option value="Career Growth Seminar">Career Growth Seminar</option>
+          <option value="Networking Night">Networking Night</option>
+          <option value="Alumni Sports Day">Alumni Sports Day</option>
           <option value="Homecoming Reunion">Homecoming Reunion</option>
+          <option value="Student-Alumni Panel Discussion">Student-Alumni Panel Discussion</option>
+          <option value="Art Exhibition: Alumni Creations">Art Exhibition: Alumni Creations</option>
           <!-- Add more event options here -->
         </select>
 
@@ -192,6 +197,7 @@
         <button type="submit">Reserve My Spot</button>
       </form>
     </section>
+
 
     <section id="contact">
       <h2>Contact Us</h2>
@@ -208,12 +214,12 @@
         <textarea id="message" name="message" required></textarea>
         <br />
 
-        <input type="submit" value="Submit" />
+        <button type="submit" value="Submit">Submit</button>
       </form>
     </section>
 
     <footer>
-      <p>&copy; 202345789  AlumniConnect Unique</p>
+      <p>&copy; 202345789  AlumniMeet Unique</p>
     </footer>
   </body>
 </html>
